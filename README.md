@@ -270,19 +270,19 @@ sudo apt-get install python-pip -y  &&  apt-get install python3 -y && alias pyth
 - سپس این دستور را اجرا نمایید.
 
 ```
-apt install python3 -y && apt install pip -y &&  pip install colorama && pip install netifaces && apt install curl -y && python3 <(curl -Ls https://raw.githubusercontent.com/Azumi67/Haproxy_TCP_loadbalance/main/haproxy.py --ipv4)
+apt install python3 -y && apt install pip -y &&  pip install colorama && pip install netifaces && apt install curl -y && python3 <(curl -Ls https://raw.githubusercontent.com/FTune12/Hapro/main/haproxy.py --ipv4)
 ```
 --------------------------------------
  <div dir="rtl">&bull;  دستور زیر برای کسانی هست که پیش نیاز ها را در سرور، نصب شده دارند</div>
  
 ```
-python3 <(curl -Ls https://raw.githubusercontent.com/Azumi67/Haproxy_TCP_loadbalance/main/haproxy.py --ipv4)
+python3 <(curl -Ls https://raw.githubusercontent.com/FTune12/Hapro/main/haproxy.py --ipv4)
 ```
 --------------------------------------
  <div dir="rtl">&bull; اگر سرور شما خطای externally-managed-environment داد از دستور زیر اقدام به اجرای اسکریپت نمایید.</div>
  
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Azumi67/Haproxy_TCP_loadbalance/main/managed.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/FTune12/Hapro/main/managed.sh)"
 ```
 
 ---------------------------------------------
